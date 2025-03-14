@@ -1,0 +1,51 @@
+.navBar {
+    background-color: #4B0082;
+    font-family: Roboto;
+    /* gap: 1em; */
+    display: flex;
+    gap: 1em;
+}
+
+.navBarTabs {
+    
+}
+
+.navBar div {
+    display: flex;
+    font-size: 1.1rem;
+    padding: 0.5em;
+    align-items: center;
+    color: white;
+    gap: 0.3em;
+    border-radius: 0.3em;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* mobiles and tablets */
+@media (max-width: 1023px) {
+    .navBar {
+        width: 100vw;
+        padding: 0.5em 0.5em;
+    }
+
+    .navBar div {
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+/* laptops */
+@media (min-width: 1024px) {
+    .navBar {
+        width: 15vw;
+        height: 100vh;
+        flex-direction: column;
+        padding: 3em 1em;
+    }
+
+    .navBarTabs {
+        
+    }
+}
