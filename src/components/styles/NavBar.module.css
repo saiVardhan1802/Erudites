@@ -43,9 +43,6 @@
         height: 100vh;
         flex-direction: column;
         padding: 3em 1em;
-    }
-
-    .navBarTabs {
-        
+        box-shadow: 1em 0 1em -1em black;
     }
 }
