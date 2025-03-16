@@ -1,14 +1,11 @@
 import React from 'react'
-import NavBar from '../components/NavBar'
+import NavBar from '../components/NavBar';
+import styles from './styles/Achievements.module.css';
 
 
 const Achievements = () => {
   return (
-    <div style={{
-        display: 'flex',
-        width: '100vw',
-        height: '100vh'
-    }}>
+    <div > {/* add flex style later */}
       <NavBar achievementStyle={{
         backgroundColor: '#E5C100 ',
         color: '#5D3FD3',

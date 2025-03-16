@@ -30,7 +30,10 @@ const Home = () => {
         <div className={styles.roots}>
           <img src={rootsImg} />
           <div className={styles.rootsText}>
-            <h1>About Roots Academy</h1>
+            <div>
+              <p style={{fontSize: '0.9rem'}}>knowledge partner with erudite initiatives</p>
+              <h1>About Roots Academy</h1>
+            </div>
             <p>Established in <span className="bold">2009, Roots Academy</span> is a leading educational institution run by <span className="bold">Roots Educational Society</span>. With a strong commitment to academic excellence, we integrate the <span className="bold">latest technology</span> into our teaching methods, empowering students with innovative learning experiences.</p>
           </div>
         </div>

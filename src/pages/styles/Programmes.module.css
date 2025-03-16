@@ -130,6 +130,7 @@
     color: red;
 }
 
+/* mobs and tabs */
 @media (max-width: 1023px) {
     .page {
         flex-direction: column;
@@ -150,6 +151,10 @@
 
     .schools {
         gap: 1em;
+    }
+
+    .isro img {
+        align-self: flex-start;
     }
 }
 
