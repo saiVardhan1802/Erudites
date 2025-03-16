@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap');
+
+.page {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    font-size: 1.2rem;
+}
+
+.pageRight {
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+    padding: 2vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-family: Inter;
+}
+
+.spaceDay {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "EB Garamond", serif;;
+    gap: 0.5em;
+}
+
+.hero img {
+    width: 20%;
+    height: auto;
+}
+
+.isro {
+    display: flex;
+    justify-content: space-between;
+}
+
+.isroContent {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    gap: 1em;
+}
+
+.isroHeading {
+    font-family: "EB Garamond", serif;;
+}
+
+.students {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.schools {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.schoolsContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.schools img {
+    width: 35%;
+    height: auto;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+.lab {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+}
+
+.labHeading {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    text-align: center;
+}
+
+.labHeading p {
+    width: 80%;
+}
+
+.labHeading h2 {
+    text-decoration: underline;
+}
+
+.roboLab {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.roboLabContent {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.roboLab img {
+    width: 15%;
+    height: auto;
+}
+
+.end {
+    text-align: center;
+}
+
+.endContact {
+    align-self: flex-start;
+    color: red;
+}
+
+@media (max-width: 1023px) {
+    .page {
+        flex-direction: column;
+    }
+
+    .pageRight {
+        width: 100vw;
+    }
+
+    .students {
+        align-items: center;
+    }
+
+    .students img {
+        height: 50%;
+        width: 25%;
+    }    
+
+    .schools {
+        gap: 1em;
+    }
+}
+
+@media (min-width: 1024px) {
+    .pageRight {  
+        width: 85vw;
+        height: 100vh;
+    }
+
+    .students img {
+        height: auto;
+        width: 25%;
+    }
+    
+}
