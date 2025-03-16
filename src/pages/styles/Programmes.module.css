@@ -163,5 +163,11 @@
         height: auto;
         width: 25%;
     }
+
+    .spaceConferenceImg {
+        width: 50%;
+        height: auto;
+        align-self: center;
+    }
     
 }

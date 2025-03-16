@@ -1,9 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import NavBar from '../components/NavBar';
-import imgOne from '../assets/homeImg1.jpg';
-import imgTwo from '../assets/homeImg2.jpg';
 import styles from './styles/Home.module.css';
-import MenuIcon from '@mui/icons-material/Menu';
 import yuvika from '../assets/yuvika-poster.jpg';
 import eduriteLogo from '../assets/eduriteLogo.jpg';
 import rootsImg from '../assets/roots_academy.jpg';
@@ -75,10 +72,6 @@ const Home = () => {
             <li>🎯 <span className="bold">Holistic Development</span> – Enhancing cognitive, social, and emotional skills.</li>
           </ul>
           <p><span className="bold">Erudite Space Education & Roots Academy</span> experience a <span className="bold">revolutionary self-learning system</span> that shapes the future of education!</p>
-        </div>
-        <div className={styles.footerImages}>
-          <img src={imgOne} />
-          <img src={imgTwo} />
         </div>
       </div>
     </div>

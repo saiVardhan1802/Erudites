@@ -1,0 +1,37 @@
+.page {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.pageRight {
+    padding: 5vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+/* mobiles */
+@media (max-width: 1023px) {
+    .page {
+        flex-direction: column;
+    }
+
+    .pageRight {
+        width: 100vw;
+    }
+}
+
+/* laptops */
+@media (min-width: 1024px) {
+    .pageRight {
+        width: 85vw;
+        height: 100vh;
+    }
+
+    .pageRight img {
+        width: 50%;
+        height: auto;
+    }
+}

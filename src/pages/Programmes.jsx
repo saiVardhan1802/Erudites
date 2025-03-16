@@ -10,6 +10,7 @@ import setupOne from '../assets/setup1.png';
 import setupTwo from '../assets/setup2.jpg';
 import productsImg from '../assets/products.jpg'
 import rocketImg from '../assets/rocketImg.jpg';
+import spaceConferenceImg from '../assets/homeImg1.jpg';
 
 const Programmes = () => {
   return (
@@ -120,6 +121,7 @@ const Programmes = () => {
             <p>📱 <a href="tel:+91-7981926596">+91-7981926596</a>, <a href="tel:+91-7981926596">9247121026</a> | ☎ <a href="tel:+91-7981926596">040-79699267</a></p>
           </div>
         </div>
+        <img className={styles.spaceConferenceImg} src={spaceConferenceImg} />
       </div>
     </div>
   )
